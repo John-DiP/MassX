@@ -3,8 +3,8 @@ This class deals with vectors, which is a quantity that represents magnitude and
 */
 
 public class Vector {
-	private double X; // represents horizontal
-	private double Y; // represents vertical
+	public double X; // represents horizontal
+	public double Y; // represents vertical
 	
 	public Vector() {
 		this.X = 0;
