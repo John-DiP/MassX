@@ -26,8 +26,10 @@ public class Vector {
 		return Math.sqrt(Math.pow(resultX,2) + Math.pow(resultY,2));
 	}
 	
+	/*
 	public double subtract(Vector other ) {
 		
 		return ;
 	}
+	*/
 }
