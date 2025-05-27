@@ -24,9 +24,9 @@ public class PhysicsEngine {
 		
 		vector2.setVectorY(y);
 		
-		System.out.println("Horizontal vector is " + vector1.getVectorX(x));
+		System.out.println("Horizontal vector is " + vector1.getVectorX());
 		
-		System.out.println("Vertical vector is " + vector2.getVectorY(y));
+		System.out.println("Vertical vector is " + vector2.getVectorY());
 		
 		input.close();
 	}

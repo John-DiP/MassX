@@ -12,7 +12,7 @@ public class Vector {
 		this.vectorX = vectorX;
 	}
 	
-	public double getVectorX(double vectorX) {
+	public double getVectorX() {
 		return vectorX;
 	}
 	
@@ -20,7 +20,7 @@ public class Vector {
 		this.vectorY = vectorY;
 	}
 	
-	public double getVectorY(double vectorY) {
+	public double getVectorY() {
 		return vectorY;
 	}
 }
