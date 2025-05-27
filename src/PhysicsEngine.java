@@ -8,25 +8,19 @@ public class PhysicsEngine {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		Vector vector1 = new Vector();
-		
-		Vector vector2 = new Vector();
-		
 		System.out.println("Enter an X coordinate: ");
 		
 		double x = input.nextDouble();
-		
-		vector1.setVectorX(x);
 		
 		System.out.println("Enter an Y coordinate: ");
 		
 		double y = input.nextDouble();
 		
-		vector2.setVectorY(y);
+		Vector vector = new Vector(x, y);
 		
-		System.out.println("Horizontal vector is " + vector1.getVectorX());
+		System.out.println("Horizontal vector is " + vector.getVectorX());
 		
-		System.out.println("Vertical vector is " + vector2.getVectorY());
+		System.out.println("Vertical vector is " + vector.getVectorY());
 		
 		input.close();
 	}

@@ -8,16 +8,18 @@ public class Vector {
 	private double vectorX; // represents a horizontal vector
 	private double vectorY; // represents a vertical vector
 	
-	public void setVectorX(double vectorX) {
+	public Vector() {
+		this.vectorX = 0;
+		this.vectorY = 0;
+	}
+	
+	public Vector(double vectorX, double vectorY) {
 		this.vectorX = vectorX;
+		this.vectorY = vectorY;
 	}
 	
 	public double getVectorX() {
 		return vectorX;
-	}
-	
-	public void setVectorY(double vectorY) {
-		this.vectorY = vectorY;
 	}
 	
 	public double getVectorY() {
