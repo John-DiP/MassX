@@ -8,28 +8,19 @@ public class Vector {
 	private double vectorX; // represents a horizontal vector
 	private double vectorY; // represents a vertical vector
 	
-	public Vector() {
-		this.vectorX = 0;
-		this.vectorY = 0;
+	public void setVectorX(double vectorX) {
+		this.vectorX = vectorX;
 	}
 	
-	public Vector(double x, double y) {
-		this.vectorX = x;
-		this.vectorY = y;
+	public double getVectorX(double vectorX) {
+		return vectorX;
 	}
 	
-	public double add(Vector other) {
-		double resultX = this.vectorX + other.vectorX;
-		double resultY = this.vectorY + other.vectorY;
-		
-		
-		return Math.sqrt(Math.pow(resultX,2) + Math.pow(resultY,2));
+	public void setVectorY(double vectorY) {
+		this.vectorY = vectorY;
 	}
 	
-	/*
-	public double subtract(Vector other ) {
-		
-		return ;
+	public double getVectorY(double vectorY) {
+		return vectorY;
 	}
-	*/
 }
