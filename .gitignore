@@ -1,5 +1,15 @@
-# Compiled class file
+# Eclipse-specific files
+.project
+.classpath
+.settings/
+
+# Build output
+bin/
 *.class
+
+# OS-specific files
+.DS_Store
+Thumbs.db
 
 # Log file
 *.log
