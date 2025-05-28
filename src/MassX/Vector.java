@@ -31,4 +31,9 @@ public class Vector {
 		
 		return result;
 	}
+	
+	@Override
+	public String toString() {
+	    return "(" + vectorX + ", " + vectorY + ")";
+	}
 }
